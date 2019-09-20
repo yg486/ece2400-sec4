@@ -3,7 +3,8 @@
 
 int avg( int x, int y )
 {
-  int sum = x + x;
+  printf( "x = %d, y = %d\n", x, y );
+  int sum = x + y;
   return sum / 2;
 }
 
